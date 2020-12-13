@@ -19,6 +19,5 @@ if [ -e /tmp/hostapd.failed ]; then
 fi
 
 ip addr add 10.209.89.1/24 dev wlan0
-ip addr add 10.209.89.2/24 dev wlan0
 
 /sbin/dnsmasq -dq
